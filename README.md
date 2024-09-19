@@ -1,4 +1,5 @@
 # Diabetes Prediction and Anomaly Detection
+<img width="497" alt="resempled-1" src="https://github.com/user-attachments/assets/c91c6ec5-e96e-4d4b-a7fd-83e20d8c3307">
 
 ## Introduction
 
