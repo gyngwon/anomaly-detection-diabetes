@@ -90,17 +90,3 @@ Confusion matrices for each model are presented to visualize the true positive, 
 
 The analysis successfully demonstrates the application of various machine learning techniques for diabetes prediction and anomaly detection. The logistic regression and random forest models show promising results in predicting diabetes outcomes, while the anomaly detection models effectively identify irregular patterns in the dataset. Future work could involve more complex models and feature engineering techniques to enhance predictive performance.
 
-## Requirements
-
-To run this project, you will need the following Python packages:
-
-- pandas
-- numpy
-- scikit-learn
-- matplotlib
-- seaborn
-
-You can install these packages using pip:
-
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
