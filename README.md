@@ -1,5 +1,4 @@
 # Diabetes Prediction and Anomaly Detection
-<img width="497" alt="resempled-1" src="https://github.com/user-attachments/assets/c91c6ec5-e96e-4d4b-a7fd-83e20d8c3307">
 
 ## Introduction
 
@@ -24,12 +23,13 @@ The dataset used for this analysis is the Diabetes dataset, which includes featu
    - The target variable (`Outcome`) is separated from the feature set.
 
 2. **Oversampling**:
+   <img width="497" alt="resempled-1" src="https://github.com/user-attachments/assets/c91c6ec5-e96e-4d4b-a7fd-83e20d8c3307">
    - The `RandomOverSampler` technique is employed to balance the class distribution by oversampling the minority class to achieve a target ratio of 95%.
 
-3. **Adding Noise**:
+4. **Adding Noise**:
    - Gaussian noise is added to certain features (`BMI` and `DiabetesPedigreeFunction`) to simulate variations in the data.
 
-4. **Standardization**:
+5. **Standardization**:
    - Features are standardized using `StandardScaler` to normalize the data.
 
 ## Model Development
