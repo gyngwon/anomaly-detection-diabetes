@@ -17,10 +17,6 @@ The dataset used for this analysis is the Diabetes dataset, which includes featu
 2. **Target Variable Distribution**:
    - The target variable shows an imbalanced distribution between diabetic and non-diabetic patients, which may affect model performance.
 
-### Visualization
-
-- A bar plot illustrates the distribution of the target variable, confirming the imbalance between classes.
-
 ## Data Preprocessing
 
 1. **Feature Selection**:
