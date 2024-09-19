@@ -25,6 +25,7 @@ The dataset used for this analysis is the Diabetes dataset, which includes featu
 2. **Oversampling**:
    
    <img width="497" alt="resempled-1" src="https://github.com/user-attachments/assets/c91c6ec5-e96e-4d4b-a7fd-83e20d8c3307">
+   
    - The `RandomOverSampler` technique is employed to balance the class distribution by oversampling the minority class to achieve a target ratio of 95%.
 
 4. **Adding Noise**:
@@ -49,6 +50,7 @@ The dataset used for this analysis is the Diabetes dataset, which includes featu
 1. **Model Training**:
    - A Random Forest Classifier is utilized for its robustness and ability to handle imbalanced data.
    - Hyperparameter tuning is conducted using `RandomizedSearchCV` to optimize model performance.
+   <img width="497" alt="random" src="https://github.com/user-attachments/assets/89587386-f6dd-4f9d-bb58-257555b5b040">
 
 ### Anomaly Detection
 
