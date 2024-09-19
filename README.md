@@ -41,7 +41,8 @@ The dataset used for this analysis is the Diabetes dataset, which includes featu
 1. **Model Training**:
    - A Logistic Regression model is trained on the resampled dataset.
    - Feature importance is derived from model coefficients.
-  
+
+
    <img width="497" alt="logistic" src="https://github.com/user-attachments/assets/11c5e98f-de62-427a-b8de-2dd369bc7a9d">
 
 
@@ -50,6 +51,7 @@ The dataset used for this analysis is the Diabetes dataset, which includes featu
 1. **Model Training**:
    - A Random Forest Classifier is utilized for its robustness and ability to handle imbalanced data.
    - Hyperparameter tuning is conducted using `RandomizedSearchCV` to optimize model performance.
+
   
    <img width="497" alt="random" src="https://github.com/user-attachments/assets/89587386-f6dd-4f9d-bb58-257555b5b040">
 
@@ -67,13 +69,15 @@ The dataset used for this analysis is the Diabetes dataset, which includes featu
 
 ### Autoencoder
 
-<img width="944" alt="autoencoder" src="https://github.com/user-attachments/assets/8802cefe-011b-492e-8619-a568680bcbc5">
-
 1. **Model Design**:
    - An autoencoder is designed to reconstruct the input features, trained solely on normal data to identify anomalies based on reconstruction error.
 
 2. **Training**:
    - The autoencoder is trained over 500 epochs, with validation on both normal and abnormal data.
+  
+   <img width="944" alt="autoencoder" src="https://github.com/user-attachments/assets/8802cefe-011b-492e-8619-a568680bcbc5">
+
+   <img width="944" alt="last" src="https://github.com/user-attachments/assets/9554c7e4-123e-44ef-812b-4455a7104517">
 
 ## Results
 
