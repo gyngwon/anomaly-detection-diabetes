@@ -1,4 +1,4 @@
-# Diabetes Prediction and Anomaly Detection
+# Diabetes Anomaly Detection
 
 ## Introduction
 
